@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "988088526240",
+    "firebase_url": "https://my-pushmsg-app-b21c6.firebaseio.com",
+    "project_id": "my-pushmsg-app-b21c6",
+    "storage_bucket": "my-pushmsg-app-b21c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988088526240:android:1db1bb6d59ee9875",
+        "android_client_info": {
+          "package_name": "com.codingblocks.pushmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988088526240-sa1cepn6ftcu7q2fo1kii2te3ccs91o2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codingblocks.pushmessaging",
+            "certificate_hash": "F3D76BDFF58C555D465E2F47C97BEEB2C1F77416"
+          }
+        },
+        {
+          "client_id": "988088526240-q0no20cb19ub4dop9736u66orqau4j94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmSQ3PxhHtcQsnrr_HqMEFHoT7kX1wmXw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988088526240-q0no20cb19ub4dop9736u66orqau4j94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

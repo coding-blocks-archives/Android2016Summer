@@ -1,0 +1,32 @@
+[
+  {
+    "transId": 9137649,
+    "productName": "Product 1",
+    "currency": "USD",
+    "price": 23.5
+  },
+  {
+    "transId": 9317652,
+    "productName": "Product 1",
+    "currency": "EUR",
+    "price": 23.5
+  },
+  {
+    "transId": 134123,
+    "productName": "Product 2",
+    "currency": "USD",
+    "price": 23.5
+  },
+  {
+    "transId": 912349,
+    "productName": "Product 3",
+    "currency": "EUR",
+    "price": 10
+  },
+  {
+    "transId": 17365,
+    "productName": "Product 4",
+    "currency": "INR",
+    "price": 2000
+  }
+]

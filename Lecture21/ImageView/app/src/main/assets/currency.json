@@ -1,0 +1,23 @@
+[
+  {
+    "from": "USD",
+    "to": "INR",
+    "rate": 66.78
+  },
+  {
+    "from": "USD",
+    "to": "AUD",
+    "rate": 1.2
+  },
+  {
+    "from": "EUR",
+    "to": "USD",
+    "rate": 1.1
+  },
+  {
+    "from": "INR",
+    "to": "EUR",
+    "rate": 0.11
+  }
+
+]

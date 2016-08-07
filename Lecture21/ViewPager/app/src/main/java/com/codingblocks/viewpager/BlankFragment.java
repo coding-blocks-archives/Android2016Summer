@@ -1,11 +1,13 @@
 package com.codingblocks.viewpager;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -65,6 +67,31 @@ public class BlankFragment extends Fragment {
         TextView tv = (TextView) rootView.findViewById(R.id.fragment_text_view);
 
         tv.setText(mParam1 + " " + mParam2);
+
+        View.OnClickListener ocl = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i;
+
+                switch (v.getId()) {
+                    case R.id.tabs:default:
+                        i = new Intent(getActivity(), ActionTabActivity.class);
+                        break;
+                    case R.id.swipe:
+                        i = new Intent(getActivity(), SwipeFragActivity.class);
+                        break;
+                    case R.id.spinner:
+                        i = new Intent(getActivity(), SpinnerActivity.class);
+                        break;
+                }
+
+                getActivity().startActivity(i);
+            }
+        };
+
+        ((Button) rootView.findViewById(R.id.swipe)).setOnClickListener(ocl);
+        ((Button) rootView.findViewById(R.id.spinner)).setOnClickListener(ocl);
+        ((Button) rootView.findViewById(R.id.tabs)).setOnClickListener(ocl);
 
         return rootView;
     }

@@ -15,6 +15,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SwipeFragActivity"
+            android:label="@string/title_activity_swipe_frag"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActionTabActivity"
+            android:label="@string/title_activity_action_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:label="@string/title_activity_spinner"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
